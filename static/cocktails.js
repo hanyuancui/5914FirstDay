@@ -14,7 +14,6 @@ function search_drinks(drinkName) {
 
 function search_drinks_based_on_found(drink) {
     var that = this
-
     for (var i = 0; i < that.drinks.length; i++) { 
         $.ajax({
             type: "GET",
@@ -28,4 +27,5 @@ function search_drinks_based_on_found(drink) {
     }
     
 }
+
 

@@ -27,25 +27,13 @@
         <form id="login-form">
             <label><input type="text" name="cocktailname" id="cocktailname-field" placeholder="Cocktail Name"></label>
             <br>
-            <button class="btn-large waves-effect waves-light" type="submit">Search</button>
+            <button onclick="search_drinks" class="btn-large waves-effect waves-light" type="submit">Search</button>
         </form>
     </div>
 
     <br>
 
 
-    <script type="text/javascript">
-        
-        var button = document.querySelector("button");
-
-        button.onclick = function() {
-            var userInput = document.querySelector("#cocktailname-field");
-
-            // Pass userInput to backend
-        }
-
-
-    </script>
 
 </body>
 </html>
