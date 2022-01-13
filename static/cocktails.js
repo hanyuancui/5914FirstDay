@@ -11,6 +11,3 @@ function search_drinks(drinkName) {
         },
       });
 }
-
-
-search_drinks("marg")
