@@ -1,5 +1,4 @@
 function search_drinks(drinkName) {
-    let drinksArray = null
 
     var that = this
     $.ajax({
@@ -9,8 +8,6 @@ function search_drinks(drinkName) {
         success: function (data) {
             console.log(data);
             that.drinks = data
-            that.updatePage(data)
-            drinksArray = data
         },
       });
 }
