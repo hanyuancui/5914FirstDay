@@ -1,5 +1,10 @@
+function button_click() {
+    var userInput = document.querySelector("#cocktailname-field");
+    return userInput;
+}
+
 function search_drinks(drinkName) {
-    let drinksArray = null
+    let drinksArray = null;
 
     $.ajax({
         type: "GET",
@@ -18,4 +23,4 @@ function search_drinks(drinkName) {
 }
 
 
-search_drinks("marg")
+search_drinks(userInput)
